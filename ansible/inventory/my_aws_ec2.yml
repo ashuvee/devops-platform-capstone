@@ -1,4 +1,4 @@
-# Use the official AWS EC2 inventory plugin (requires the amazon.aws collection)
+# Use the official AWS EC2 inventory plugin 
 plugin: aws_ec2
 
 # Limit the search to specific regions to speed up the inventory refresh 
