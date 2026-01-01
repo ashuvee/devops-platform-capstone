@@ -3,7 +3,7 @@
 # This generates capstone_key (private key) and capstone_key.pub (public key).
 
 resource "aws_key_pair" "aws_key" {
-  key_name = "proj-key"
+  key_name   = "proj-key"
   public_key = file("~/.ssh/capstone_key.pub") # Terraform reads your local public key
 }
 

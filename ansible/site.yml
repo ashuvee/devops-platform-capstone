@@ -3,3 +3,9 @@
   become: true
   roles:
     - jenkins
+
+- name: configure sonarqube server
+  hosts: tag_SonarQube_Server
+  become: true
+  roles:
+    - sonarqube
