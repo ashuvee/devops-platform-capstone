@@ -9,3 +9,9 @@
   become: true
   roles:
     - sonarqube
+
+- name: configure nexus server
+  hosts: tag_Nexus_Server
+  become: true
+  roles:
+    - nexus

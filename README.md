@@ -37,3 +37,9 @@ This platform follows a modular design to ensure a clear **separation of concern
 - `docs/`: Proof of work, screenshots, and technical defense.
 
 ---
+
+
+
+`EDITOR=nano ansible-vault create group_vars/all/vault.yml`
+
+`ansible-playbook -i inventory/my_aws_ec2.yml site.yml --ask-vault-pass`
