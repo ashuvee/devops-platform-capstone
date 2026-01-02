@@ -56,6 +56,8 @@ configure aws cli   --  `aws configure` (access key & secretkey)
 
 
 
+for verifying ansible access to aws:
+`ansible-inventory --graph`  
 
 for ansible vault:
 
